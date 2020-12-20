@@ -1,0 +1,113 @@
+#mainContainer {
+      width: 1000px;
+      margin: auto;
+}
+
+.tripSelector {
+      display: flex;
+      flex-direction: column;
+}
+
+.piegraphs {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+}
+
+.weightNum {
+      display: flex;
+      flex-flow: column;
+}
+
+.rightSide {
+      display: flex;
+      flex-flow: column;
+}
+
+.leftSide {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 1);
+      padding: 0.5rem 1.4rem 0.5rem 0;
+}
+
+.leftSide i {
+      padding: 0.9rem;
+      font-size: 1.6rem;
+}
+
+.wvalues {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+}
+
+.fa-star-half-alt {
+      color: #7c14cc;
+}
+
+.fas.fa-star {
+      color: #cc8714;
+}
+
+.far.fa-star {
+      color: #0400ff;
+}
+
+.bgroup {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 2rem;
+}
+
+.booking {
+      text-align: center;
+      padding: 1.5rem;
+      border-radius: 5px;
+      background-color: #7c14cc;
+      color: white;
+      font-weight: 700;
+      box-shadow: 2px 2px 2px 2px rgba(190, 190, 190, 1);
+}
+
+.selectVessel {
+      display: flex;
+      flex-flow: column;
+      margin: 0 2rem;
+}
+
+.selectVessel h3 {
+      margin: 0.3rem 0;
+}
+
+.selectGroup {
+      display: flex;
+      flex-flow: row;
+}
+
+.radioDate {
+      margin: 0.5rem 0;
+}
+
+.bsummary {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 3rem;
+      margin-bottom: 2rem;
+}
+
+.bsummary div {
+      background-color: hsl(37, 82%, 44%);
+      box-shadow: 2px 2px 2px 2px rgba(190, 190, 190, 1);
+      text-align: center;
+      color: white;
+      font-weight: 700;
+      padding: 1rem 0;
+      font-size: 2rem;
+      border-radius: 5px;
+
+      display: flex;
+      flex-flow: column;
+}
